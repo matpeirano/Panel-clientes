@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Panel</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+
+<h2>Cargar Excel</h2>
+<input type="file" id="fileActual">
+
+<h3>KPIs</h3>
+Clientes: <span id="kpiClientes"></span><br>
+AUM: <span id="kpiAum"></span><br>
+ROA: <span id="kpiRoa"></span><br>
+Inactivos: <span id="kpiInactivos"></span>
+
+<h3>Liquidez</h3>
+<table id="tablaLiquidez"><tbody></tbody></table>
+
+<h3>Top AUM</h3>
+<table id="tablaTopAum"><tbody></tbody></table>
+
+<h3>Inactivos</h3>
+<table id="tablaInactivos"><tbody></tbody></table>
+
+</body>
+</html>
